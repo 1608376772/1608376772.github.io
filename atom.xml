@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1608376772.github.io</id>
     <title>少女收容所</title>
-    <updated>2020-04-08T07:05:15.504Z</updated>
+    <updated>2020-04-08T07:07:42.817Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1608376772.github.io"/>
     <link rel="self" href="https://1608376772.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://1608376772.github.io/images/avatar.png</logo>
     <icon>https://1608376772.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 少女收容所</rights>
+    <entry>
+        <title type="html"><![CDATA[再来个]]></title>
+        <id>https://1608376772.github.io/post/zai-lai-ge/</id>
+        <link href="https://1608376772.github.io/post/zai-lai-ge/">
+        </link>
+        <updated>2020-04-08T07:07:18.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[HELLO  girl]]></title>
         <id>https://1608376772.github.io/post/hello-girl/</id>
