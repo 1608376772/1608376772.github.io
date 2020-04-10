@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://u2v4vm.coding-pages.com</id>
+    <id>https://u2v4vm.coding-pages.com</id>
     <title>少女收容所</title>
-    <updated>2020-04-10T02:39:59.666Z</updated>
+    <updated>2020-04-10T02:40:55.147Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://u2v4vm.coding-pages.com"/>
-    <link rel="self" href="http://u2v4vm.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://u2v4vm.coding-pages.com"/>
+    <link rel="self" href="https://u2v4vm.coding-pages.com/atom.xml"/>
     <subtitle>每天拖着疲惫的身体，就为了到达目的地</subtitle>
-    <logo>http://u2v4vm.coding-pages.com/images/avatar.png</logo>
-    <icon>http://u2v4vm.coding-pages.com/favicon.ico</icon>
+    <logo>https://u2v4vm.coding-pages.com/images/avatar.png</logo>
+    <icon>https://u2v4vm.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 少女收容所</rights>
     <entry>
         <title type="html"><![CDATA[震惊！！！某大学生竟花8小时干出这种事情😟]]></title>
-        <id>http://u2v4vm.coding-pages.com/post/hello-girl/</id>
-        <link href="http://u2v4vm.coding-pages.com/post/hello-girl/">
+        <id>https://u2v4vm.coding-pages.com/post/hello-girl/</id>
+        <link href="https://u2v4vm.coding-pages.com/post/hello-girl/">
         </link>
         <updated>2020-04-08T06:51:09.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>http://u2v4vm.coding-pages.com/post/about/</id>
-        <link href="http://u2v4vm.coding-pages.com/post/about/">
+        <id>https://u2v4vm.coding-pages.com/post/about/</id>
+        <link href="https://u2v4vm.coding-pages.com/post/about/">
         </link>
         <updated>2020-04-08T04:09:48.000Z</updated>
     </entry>
