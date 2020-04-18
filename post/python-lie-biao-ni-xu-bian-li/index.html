@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://1608376772.github.io/favicon.ico?v=1587187482836">
+<link rel="shortcut icon" href="https://1608376772.github.io/favicon.ico?v=1587189417235">
 <link rel="stylesheet" href="https://1608376772.github.io/styles/main.css">
 
 
@@ -36,7 +36,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://1608376772.github.io">
-        <img src="https://1608376772.github.io/images/avatar.png?v=1587187482836" class="site-logo">
+        <img src="https://1608376772.github.io/images/avatar.png?v=1587189417235" class="site-logo">
         <h1 class="site-title">少女收容所</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -107,7 +107,7 @@
 思路代码及运行结果如下（这是错的）<br>
 <img src="https://1608376772.github.io/post-images/1587186314941.png" alt="" loading="lazy"><br>
 观察输出结果，跟原列表相比虽然剔除了一些含2的元素，但是并没有完全剔除，为什么？<br>
-来分析一下python是根据列表元素的下标来遍历的。于是最开始元素123下标为1,  元素212下标为2。第一遍循环执行了s.remove，删除了元素123。当进入第二遍循环时！！！重点来了，注意 此时元素123已经是被删除了， 所以元素212的下标由1变成了0，元素434下标由2变成了1。而下标为0已经在第一遍循环中执行了，故第二遍循环会寻找下标为1的元素。<br>
+来分析一下python是根据列表元素的下标来遍历的。于是最开始元素123下标为0,  元素212下标为1。第一遍循环执行了s.remove，删除了元素123。当进入第二遍循环时！！！重点来了，注意 此时元素123已经是被删除了， 所以元素212的下标由1变成了0，元素434下标由2变成了1。而下标为0已经在第一遍循环中执行了，故第二遍循环会寻找下标为1的元素。<br>
 写到这 想必大家已经知道为什么输出结果中212没有被删除，因为这2货压根就没有被python发现，坐上了前一个元素的位置逃过了例行检查。元素1215为什么也没被删除？？因为它下标变成了前面的元素231的位置，逃过了python大哥的例行检查。<br>
 好了，出错的原因已经找到了，怎么解决呢？遍历呢就像一条路，你可以从路的起点走到终点，也可以从路的终点走到起点。刚才我们是正序遍历，解决不了问题，那我们倒过来呢？试一下。<br>
 倒序遍历的结构可以是这样的：    for i in range(len(s)-1,-1,-1)<br>
